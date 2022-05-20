@@ -1,4 +1,4 @@
-# Classificador K-nn em Python
+# Classificador K-nn em Python (Sem Numpy)
 
 O [K-nn](https://github.com/andrerochasouza/Python-KNN) é um projeto pessoal, onde aplico na prática um algoritmo simples, porém muito interessante, que é o algoritmo de aprendizado de máquina, classficador K nearest neighbor.
 

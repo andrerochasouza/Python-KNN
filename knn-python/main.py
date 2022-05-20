@@ -10,6 +10,7 @@ Algoritmo K-Nearest Neighbors em Python
 import knn_python as knn
 import regressao_linear_knn as reg
 
+
 dataset = [[ 1.0, 1.0, 3.0, 4.0, 5.0, "mago" ],
            [ 2.0, 1.0, 4.0, 5.0, 5.0, "mago" ],
            [ 1.0, 2.0, 5.0, 4.0, 3.0, "mago" ],
