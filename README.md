@@ -1,6 +1,6 @@
 # Classificador K-nn em Python
 
-O [K-nn](https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm) é um projeto pessoal, onde aplico na prática um algoritmo simples, porém muito interessante, que é o algoritmo de aprendizado de máquina, classficador K nearest neighbor.
+O algoritmo [K-nn](https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm) é um projeto pessoal de estudo, onde aplico simples algoritmo, porém muito interessante, que é o algoritmo de aprendizado de máquina, classficador K nearest neighbor.
 
 Algoritmo K-nn é um classificador que depende dos valores dos seus vizinhos mais próximos, para assim, aplicar a classificação na amostra concedida.
 
