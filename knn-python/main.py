@@ -8,19 +8,20 @@ Algoritmo K-Nearest Neighbors em Python
 '''
 
 import knn_python as knn
+import regressao_linear_knn as reg
 
-a = [ 1.0, 1.0, 3.0, 4.0, 5.0, 1.0 ]
-b = [ 2.0, 1.0, 4.0, 5.0, 5.0, 1.0 ]
-c = [ 1.0, 2.0, 5.0, 4.0, 3.0, 1.0 ]
-d = [ 1.0, 2.0, 5.0, 5.0, 5.0, 1.0 ]
-e = [ 5.0, 4.0, 2.0, 1.0, 1.0, 0.0 ]
-f = [ 4.0, 5.0, 1.0, 1.0, 2.0, 0.0 ]
-g = [ 5.0, 5.0, 1.0, 1.0, 1.0, 0.0 ]
+dataset = [[ 1.0, 1.0, 3.0, 4.0, 5.0, "mago" ],
+           [ 2.0, 1.0, 4.0, 5.0, 5.0, "mago" ],
+           [ 1.0, 2.0, 5.0, 4.0, 3.0, "mago" ],
+           [ 1.0, 2.0, 5.0, 5.0, 5.0, "mago" ],
+           [ 5.0, 4.0, 2.0, 1.0, 1.0, "guerreiro" ],
+           [ 4.0, 5.0, 1.0, 1.0, 2.0, "guerreiro" ],
+           [ 5.0, 5.0, 1.0, 1.0, 1.0, "guerreiro" ],
+           [ 3.0, 4.0, 1.0, 1.0, 3.0, "guerreiro" ]]
 
-matrix = [a, b, c, d, e, f, g]
 
-amostra = [ 3.0, 3.0, 2.0, 1.0, 1.0 ]
+amostra_classificacao = [ 3, 4.6, 2.0, 1.0, 1.0 ]
+amostra_regressao = [ 3, 4.6, None, 1.0, 1.0, "guerreiro" ]
 
-print(knn.mapa_euclidiano(amostra))
-
-# print(matrix)
+print(knn.classificar_knn(3, dataset, amostra_classificacao))
+print(reg.regressao_knn_media(3, dataset, amostra_regressao))
