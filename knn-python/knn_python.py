@@ -28,3 +28,15 @@ def calc_dataset(dataset, amostra):
         calc_dataset_euclidiano.append(distancia_euclidiano(amostra, treinamento_posicao))
     
     return calc_dataset_euclidiano
+
+# Função que retorna uma lista dentro de uma lista
+
+def mapa_euclidiano(lista_euclidiana):
+    map = [[]]
+    for i in range(len(lista_euclidiana)):
+        map.append(len(lista_euclidiana[i]))
+
+    return map.sort()
+
+
+

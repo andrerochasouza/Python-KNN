@@ -21,4 +21,6 @@ matrix = [a, b, c, d, e, f, g]
 
 amostra = [ 3.0, 3.0, 2.0, 1.0, 1.0 ]
 
-print(matrix)
+print(knn.mapa_euclidiano(amostra))
+
+# print(matrix)
